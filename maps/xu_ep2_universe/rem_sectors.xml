@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- Add zone with gate to Matrix 48 sector -->
+    <add sel="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections">
+        <!-- Event Horizon -->
+        <connection name="ZoneRoRPatch_Cluster_REM06_Sector001_connection" ref="zones">
+            <offset>
+                <position x="125060" y="127500" z="114855" />
+            </offset>
+            <macro ref="ZoneRoRPatch_Cluster_REM06_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+
+    <!-- Add zone with gate to Mists of Elysium sector -->
+    <add sel="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections">
+        <!-- Theia -->
+        <connection name="ZoneRoRPatch_Cluster_REM14_Sector001_connection" ref="zones">
+            <offset>
+                <position x="125060" y="127500" z="114855" />
+            </offset>
+            <macro ref="ZoneRoRPatch_Cluster_REM14_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+
+    <!-- Add zone with gate to Shore of Infinity sector -->
+    <add sel="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections">
+        <!-- Theia -->
+        <connection name="ZoneRoRPatch_Cluster_REM18_Sector001_connection" ref="zones">
+            <offset>
+                <position x="125060" y="127500" z="114855" />
+            </offset>
+            <macro ref="ZoneRoRPatch_Cluster_REM18_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+</diff>
