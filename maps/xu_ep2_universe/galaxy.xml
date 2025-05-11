@@ -29,7 +29,6 @@
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']/macro">
         <macro connection="destination"  path="../../../../../Cluster_REM06_connection/Cluster_REM06_Sector001_connection/ZoneRoRPatch_Cluster_REM06_Sector001_connection/ConnectionRoRPatch_ClusterGateREM06Toror4"/>
     </replace>
-   
 
     <!-- Connect Theia gate to Mists of Elysium -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']/macro">
