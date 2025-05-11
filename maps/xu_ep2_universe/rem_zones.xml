@@ -4,7 +4,6 @@
         <!-- Matrix #48 -->
         <macro name="ZoneRoRPatch_Cluster_REM06_Sector001_macro" class="zone">
             <component ref="standardzone"/>
-            <!-- Event Horizon -->
             <connections>
                 <connection name="ConnectionRoRPatch_ClusterGateREM06Toror4" ref="gates">
                     <offset>
@@ -19,7 +18,6 @@
         <!-- Mists of Elysium -->
         <macro name="ZoneRoRPatch_Cluster_REM14_Sector001_macro" class="zone">
             <component ref="standardzone"/>
-            <!-- Theia -->
             <connections>
                 <connection name="ConnectionRoRPatch_ClusterGateREM14Toror1" ref="gates">
                     <offset>
@@ -34,7 +32,6 @@
         <!-- Shore of Infinity -->
         <macro name="ZoneRoRPatch_Cluster_REM18_Sector001_macro" class="zone">
             <component ref="standardzone"/>
-            <!-- Theia -->
             <connections>
                 <connection name="ConnectionRoRPatch_ClusterGateREM18Toror1" ref="gates">
                     <offset>

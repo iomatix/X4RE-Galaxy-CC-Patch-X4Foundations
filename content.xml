@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="re_ror_ts_map_patch_cc" name="X4:RE and Extensions including Trey's Sectors - Rise of the Ossian Raider Community Compatibility Patch" description="This patch ensures seamless compatibility between X4: Reemergence, Trey's Sectors Reemergence Patch Standalone, and the Rise of the Ossian Raider mod series, integrating additional sector expansions and balance adjustments. It requires dependencies such as Variety and Rebalance Overhaul and X4: RE Expansion - Skull and Bones, ensuring a cohesive gameplay experience." author="iomatix" version="1" save="0" date="2025-05-11" sync="false">
-  <dependency id="reemergence" optional="false" name="X4:Reemergence"/>
-  <dependency id="re_expansion_pirate" optional="false" name="X4:RE Expansion - Skull and Bones"/>
-  <dependency id="ws_1705279348" optional="false" name="Rise of the Ossian Raider"/>
-  <dependency id="ws_2408335033" optional="false" name="Rise of the Ossian Raider Part 2"/>
-  <dependency id="Rise of the Ossian Raider Part 3" optional="false" name="Rise of the Ossian Raider Part 3"/>
-  <dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul"/>
-  <dependency id="addmoresectorsre" optional="false" name="Trey's Sectors Reemergence Patch Standalone"/>
+<content id="re_ror_ts_map_patch_cc" name="X4:RE and Extensions including Trey's Sectors - Rise of the Ossian Raider Community Compatibility Patch" 
+         description="Compatibility patch for Reemergence, Trey's Sectors, and ROR series" 
+         author="iomatix" version="1.1" save="0" date="2025-05-11" sync="false">
+
+  <dependency id="reemergence" optional="false"/>
+  <dependency id="addmoresectorsre" optional="false"/>
+  <dependency id="ws_1705279348" optional="false"/>
+  <dependency id="ws_2408335033" optional="false"/>
+  <dependency id="Rise of the Ossian Raider Part 3" optional="false"/>
+  <dependency id="ws_1696862840" optional="false"/>
+  <dependency id="re_expansion_pirate" optional="false"/>
 </content>
