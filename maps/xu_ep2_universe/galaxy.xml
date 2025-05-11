@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
     <!-- Reposition Event Horizon -->
-    <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror4_connection']/offset">
+    <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror4_connection']/offset">
         <offset>
-            <position x="-185000000" y="0" z="184540000" />
+            <position x="-185000000" y="0" z="184540000"/>
         </offset>
     </replace>
     <!-- Reposition Holy Ground -->
-    <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror3_connection']/offset">
+    <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror3_connection']/offset">
         <offset>
-            <position x="-185000000" y="0" z="201860000" />
+            <position x="-185000000" y="0" z="201860000"/>
         </offset>
     </replace>
     <!-- Reposition Theia -->
-    <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror1_connection']/offset">
+    <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror1_connection']/offset">
         <offset>
-            <position x="-200000000" y="0" z="158560000" />
+            <position x="-200000000" y="0" z="158560000"/>
         </offset>
     </replace>
     <!-- Reposition Triton -->
-    <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror2_connection']/offset">
+    <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror2_connection']/offset">
         <offset>
-            <position x="-200000000" y="0" z="175880000" />
+            <position x="-200000000" y="0" z="175880000"/>
         </offset>
     </replace>
-
 
     <!-- Connect Matrix #48 -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']">
         <connection name="RoR_REM06_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections/connection[@name='Gate_REM06_positive']">
+            path="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections/connection[@name='gate_zone_rem06']/macro/connections/connection[@name='Gate_REM06_ROR_positive']">
             <macro connection="destination" 
                 path="/macros/macro/connections/connection[@name='ClusterGateRor4To017']"/>
         </connection>
@@ -42,7 +38,7 @@
     <!-- Connect Mists of Elysium -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']">
         <connection name="RoR_REM14_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections/connection[@name='Gate_REM14_positive']">
+            path="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections/connection[@name='gate_zone_rem14']/macro/connections/connection[@name='Gate_REM14_ROR_positive']">
             <macro connection="destination" 
                 path="/macros/macro/connections/connection[@name='ClusterGaterorTo009']"/>
         </connection>
@@ -51,7 +47,7 @@
     <!-- Connect Shore of Infinity -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo044']">
         <connection name="RoR_REM18_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections/connection[@name='Gate_REM18_positive']">
+            path="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections/connection[@name='gate_zone_rem18']/macro/connections/connection[@name='Gate_REM18_ROR_positive']">
             <macro connection="destination" 
                 path="/macros/macro/connections/connection[@name='ClusterGaterorTo044']"/>
         </connection>
