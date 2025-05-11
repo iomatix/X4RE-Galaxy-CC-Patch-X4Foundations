@@ -29,6 +29,8 @@
         </offset>
     </replace>
 
+
+    <!-- Connect Matrix #48 -->
     <replace
         sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']">
         <connection name="RoR_REM06_gate_link" ref="destination"

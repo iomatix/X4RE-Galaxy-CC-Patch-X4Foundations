@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
     <!-- Matrix #48 -->
     <add sel="/macros/macro[@name='Cluster_REM06_Sector001_macro']">
-        <component ref="standardzone" />
         <connections>
-            <connection name="RoR_REM06_positive_gate" ref="gates">
+            <connection name="Gate_REM06_positive" ref="gates">
                 <offset>
-                    <position x="0" y="500" z="0" />
+                    <position x="15000" y="500" z="0"/> <!-- Offset from sector center -->
                 </offset>
-                <macro ref="props_gates_anc_gate_macro" connection="space" />
+                <macro ref="props_gates_anc_gate_macro" connection="space"/>
             </connection>
         </connections>
     </add>
 
     <!-- Mists of Elysium -->
     <add sel="/macros/macro[@name='Cluster_REM14_Sector001_macro']">
-        <component ref="standardzone" />
         <connections>
-            <connection name="RoR_REM14_positive_gate" ref="gates">
+            <connection name="Gate_REM14_positive" ref="gates">
                 <offset>
-                    <position x="0" y="500" z="0" />
+                    <position x="15000" y="500" z="0"/>
                 </offset>
-                <macro ref="props_gates_anc_gate_macro" connection="space" />
+                <macro ref="props_gates_anc_gate_macro" connection="space"/>
             </connection>
         </connections>
     </add>
 
     <!-- Shore of Infinity -->
     <add sel="/macros/macro[@name='Cluster_REM18_Sector001_macro']">
-        <component ref="standardzone" />
         <connections>
-            <connection name="RoR_REM18_positive_gate" ref="gates">
+            <connection name="Gate_REM18_positive" ref="gates">
                 <offset>
-                    <position x="0" y="500" z="0" />
+                    <position x="15000" y="500" z="0"/>
                 </offset>
-                <macro ref="props_gates_anc_gate_macro" connection="space" />
+                <macro ref="props_gates_anc_gate_macro" connection="space"/>
             </connection>
         </connections>
     </add>
