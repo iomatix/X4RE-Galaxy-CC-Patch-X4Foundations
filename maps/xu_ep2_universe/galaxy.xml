@@ -29,25 +29,32 @@
         </offset>
     </replace>
 
-    <!-- Connect Event Horizon gate to Matrix 48 -->
     <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']/macro">
-        <macro connection="destination"
-            path="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections/connection[@name='ConnectionRoRPatch_ClusterGateREM06Toror4']" />
+        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']">
+        <connection name="RoR_REM06_gate_link" ref="destination"
+            path="../Cluster_REM06_connection/REM06_sector_connection/RoR_REM06_positive_gate">
+            <macro connection="destination"
+                path="../../../../Cluster_ROR4_connection/ROR4_sector_connection/RoR_ROR4_negative_gate" />
+        </connection>
     </replace>
 
-    <!-- Connect Theia gate to Mists of Elysium -->
+    <!-- Connect Mists of Elysium -->
     <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']/macro">
-        <macro connection="destination"
-            path="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections/connection[@name='ConnectionRoRPatch_ClusterGateREM14Toror1']" />
-
+        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']">
+        <connection name="RoR_REM14_gate_link" ref="destination"
+            path="../Cluster_REM14_connection/REM14_sector_connection/RoR_REM14_positive_gate">
+            <macro connection="destination"
+                path="../../../../Cluster_ROR1_connection/ROR1_sector_connection/RoR_ROR1_negative_gate" />
+        </connection>
     </replace>
 
-    <!-- Connect Theia gate to Shore of Infinity -->
+    <!-- Connect Shore of Infinity -->
     <replace
-        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo044']/macro">
-        <macro connection="destination"
-            path="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections/connection[@name='ConnectionRoRPatch_ClusterGateREM18Toror1']" />
+        sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo044']">
+        <connection name="RoR_REM18_gate_link" ref="destination"
+            path="../Cluster_REM18_connection/REM18_sector_connection/RoR_REM18_positive_gate">
+            <macro connection="destination"
+                path="../../../../Cluster_ROR2_connection/ROR2_sector_connection/RoR_ROR2_negative_gate" />
+        </connection>
     </replace>
 </diff>
