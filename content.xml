@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <content id="re_ror_ts_map_patch_cc" name="X4:RE and Extensions including Trey's Sectors - Rise of the Ossian Raider Community Compatibility Patch" 
          description="Compatibility patch for Reemergence, Trey's Sectors, and ROR series" 
-         author="iomatix" version="1.1" save="0" date="2025-05-11" sync="false">
+         author="iomatix" version="111" save="0" date="2025-05-11" sync="false">
 
   <dependency id="reemergence" optional="false"/>
   <dependency id="addmoresectorsre" optional="false"/>

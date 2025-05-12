@@ -29,27 +29,21 @@
     <!-- Connect Matrix #48 -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']">
         <connection name="RoR_REM06_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections/connection[@name='gate_zone_rem06']/macro/connections/connection[@name='Gate_REM06_ROR_positive']">
-            <macro connection="destination" 
-                path="/macros/macro/connections/connection[@name='ClusterGateRor4To017']"/>
+            path="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections/connection[@name='ZoneROR_Cluster_REM06_Sector001_connection']/macro/connections/connection[@name='connection_ClusterGateREM06ToROR']">
         </connection>
     </replace>
 
     <!-- Connect Mists of Elysium -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']">
         <connection name="RoR_REM14_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections/connection[@name='gate_zone_rem14']/macro/connections/connection[@name='Gate_REM14_ROR_positive']">
-            <macro connection="destination" 
-                path="/macros/macro/connections/connection[@name='ClusterGaterorTo009']"/>
+            path="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections/connection[@name='ZoneROR_Cluster_REM14_Sector001_connection']/macro/connections/connection[@name='connection_ClusterGateREM14ToROR']">
         </connection>
     </replace>
 
     <!-- Connect Shore of Infinity -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo044']">
         <connection name="RoR_REM18_gate_link" ref="destination"
-            path="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections/connection[@name='gate_zone_rem18']/macro/connections/connection[@name='Gate_REM18_ROR_positive']">
-            <macro connection="destination" 
-                path="/macros/macro/connections/connection[@name='ClusterGaterorTo044']"/>
+            path="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections/connection[@name='ZoneROR_Cluster_REM18_Sector001_connection']/macro/connections/connection[@name='connection_ClusterGateREM18ToROR']">
         </connection>
     </replace>
 </diff>
