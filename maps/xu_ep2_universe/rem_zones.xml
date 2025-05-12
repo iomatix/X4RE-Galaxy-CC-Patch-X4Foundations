@@ -15,7 +15,6 @@
         </connections>
     </macro>
 
-
     <!-- Define Macro ROR to Mists of Elysium Zone -->
     <macro name="ZoneROR_Cluster_REM14_Sector001_macro" class="zone">
         <component ref="standardzone" />
@@ -30,7 +29,6 @@
             </connection>
         </connections>
     </macro>
-
 
     <!-- Define Macro ROR to Shore of Infinity Zone -->
     <macro name="ZoneROR_Cluster_REM18_Sector001_macro" class="zone">

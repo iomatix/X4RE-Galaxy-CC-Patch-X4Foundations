@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+
+    <!-- Connect Zones to Sectors -->
+    <!-- CLUSTER REM06 = MATRIX #48 -->
+    <add sel="/macros/macro[@name='Cluster_REM06_Sector001_macro']/connections">
+        <connection name="ZoneROR_Cluster_REM06_Sector001_connection" ref="zones"> <!-- Event Horizon -->
+            <offset>
+                <position x="-87500" y="0" z="87500" />
+            </offset>
+            <macro ref="ZoneROR_Cluster_REM06_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+
+    <!-- CLUSTER REM14 = Mists of Elysium -->
+    <add sel="/macros/macro[@name='Cluster_REM14_Sector001_macro']/connections">
+        <connection name="ZoneROR_Cluster_REM14_Sector001_connection" ref="zones"> <!-- Theia -->
+            <offset>
+                <position x="-137500" y="0" z="87500" />
+            </offset>
+            <macro ref="ZoneROR_Cluster_REM14_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+
+    <!-- CLUSTER REM18 = Shore of Infinity -->
+    <add sel="/macros/macro[@name='Cluster_REM18_Sector001_macro']/connections">
+        <connection name="ZoneROR_Cluster_REM18_Sector001_connection" ref="zones"> <!-- Theia -->
+            <offset>
+                <position x="-87500" y="0" z="137500" />
+            </offset>
+            <macro ref="ZoneROR_Cluster_REM18_Sector001_macro" connection="sector" />
+        </connection>
+    </add>
+
+
+</diff>
