@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<macros>
+    <!-- Define Macro ROR to Matrix #48 Zone -->
+    <macro name="ZoneROR_Cluster_REM06_Sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+            <!-- Define Gate for Matrix #48 -->
+            <connection name="Gate_REM06_ROR_positive" ref="gates">
+                <offset>
+                    <position x="1000" y="500" z="21750" />
+                    <quaternion qx="0" qy="-0.9238795" qz="0" qw="0.3826834" />
+                </offset>
+                <macro ref="props_ter_accelerator_01_macro" connection="space" />
+            </connection>
+        </connections>
+    </macro>
+
+    <!-- Define Macro ROR to Mists of Elysium Zone -->
+    <macro name="ZoneROR_Cluster_REM14_Sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+            <!-- Define Gate for Mists of Elysium -->
+            <connection name="Gate_REM14_ROR_positive" ref="gates">
+                <offset>
+                    <position x="1000" y="500" z="21750" />
+                    <quaternion qx="0" qy="-0.9238795" qz="0" qw="0.3826834" />
+                </offset>
+                <macro ref="props_ter_accelerator_01_macro" connection="space" />
+            </connection>
+        </connections>
+    </macro>
     
-    <!-- Define Zone for Matrix #48 -->
-    <add sel="/macros">
-        <macro name="ZoneRoRPatch_Cluster_REM06_Sector001_Gate_macro" class="zone">
-            <component ref="standardzone"/>
-            <connections>
-                <connection name="Gate_REM06_ROR_positive" ref="gates">
-                    <offset>
-                        <position x="15000" y="500" z="0"/>
-                    </offset>
-                    <macro ref="props_gates_orb_accelerator_01_macro" connection="space"/>
-                </connection>
-            </connections>
-        </macro>
-    </add>
-
-    <!-- Define Zone for Mists of Elysium -->
-    <add sel="/macros">
-        <macro name="ZoneRoRPatch_Cluster_REM14_Sector001_Gate_macro" class="zone">
-            <component ref="standardzone"/>
-            <connections>
-                <connection name="Gate_REM14_ROR_positive" ref="gates">
-                    <offset>
-                        <position x="15000" y="500" z="0"/>
-                    </offset>
-                    <macro ref="props_gates_orb_accelerator_01_macro" connection="space"/>
-                </connection>
-            </connections>
-        </macro>
-    </add>
-
-    <!-- Define Zone for Shore of Infinity -->
-    <add sel="/macros">
-        <macro name="ZoneRoRPatch_Cluster_REM18_Sector001_Gate_macro" class="zone">
-            <component ref="standardzone"/>
-            <connections>
-                <connection name="Gate_REM18_ROR_positive" ref="gates">
-                    <offset>
-                        <position x="15000" y="500" z="0"/>
-                    </offset>
-                    <macro ref="props_gates_orb_accelerator_01_macro" connection="space"/>
-                </connection>
-            </connections>
-        </macro>
-    </add>
-</diff>
+    <!-- Define Macro ROR to Shore of Infinity Zone -->
+    <macro name="ZoneROR_Cluster_REM18_Sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+            <!-- Define Gate for Shore of Infinity -->
+            <connection name="Gate_REM18_ROR_positive" ref="gates">
+                <offset>
+                    <position x="1000" y="500" z="21750" />
+                    <quaternion qx="0" qy="-0.9238795" qz="0" qw="0.3826834" />
+                </offset>
+                <macro ref="props_ter_accelerator_01_macro" connection="space" />
+            </connection>
+        </connections>
+    </macro>
+</macros>
