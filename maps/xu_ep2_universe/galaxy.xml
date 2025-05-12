@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<diff>
     
     <!-- Reposition Event Horizon -->
     <replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror4_connection']/offset">
