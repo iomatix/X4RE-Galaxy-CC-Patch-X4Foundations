@@ -1,19 +1,19 @@
 # X4RE-RoR-Patch-X4Foundations
 
 ### Patch Overview
-This patch ensures compatibility between various X4 expansions while integrating sector expansions and balance tweaks.
+This patch aims to provide **optimal compatibility** between **X4: Reemergence** and **Rise of the Ossian Raider**, while also ensuring support for additional content, including official and community expansions for X4RE, as well as officially supported community sector addons.
 
 ### Requirements
 - **X4: Reemergence**
-- **Trey's Sectors Reemergence Patch Standalone**
 - **Rise of the Ossian Raider**
+- **Trey's Sectors Reemergence Patch Standalone**
 - **Variety and Rebalance Overhaul**
 - **X4: RE Expansion - Skull and Bones**
 
 ### Future Adaptation
-- Will be updated for upcoming X4RE and RoR releases.
-- Compatible with official X4RE updates inc. official and community expansions.
+- Will be continuously updated to align with official **X4RE** and **RoR** releases.
+- Supports official **X4RE** expansions and community sector addons.
+- Additional mods may be integrated into the patch to further improve compatibility.
 
-### Support for Trey's Sectors Reemergence
-- Currently supported.
-- Will remain supported as long as the official X4RE release allows it.
+### Requesting Additional Mods
+- You may request any mod that **expands X4RE** and is **compatible with the latest release of Reemergence**.
