@@ -16,4 +16,4 @@ This patch aims to provide **optimal compatibility** between **X4: Reemergence**
 - Additional mods may be integrated into the patch to further improve compatibility.
 
 ### Requesting Additional Mods
-- You may request any mod that **expands X4RE** and is **compatible with the latest release of VRO** (because VRO is hard dependency for Reemergence).
+- You may request any mod that **expands X4 Universe** and is **compatible with the latest release of VRO** (because VRO is hard dependency for Reemergence).
