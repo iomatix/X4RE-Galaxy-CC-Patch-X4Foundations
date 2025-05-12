@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/index">
-	<entry name="zoneror_*" value="extensions\re_ror_ts_map_patch_cc\maps\XU_ep2_universe\rem_zones"/>
+    <entry name="ZoneROR_Cluster_REM06_Sector001_macro"
+      value="extensions\re_ror_ts_map_patch_cc\maps\XU_ep2_universe\rem_zones" />
+    <entry name="ZoneROR_Cluster_REM14_Sector001_macro"
+      value="extensions\re_ror_ts_map_patch_cc\maps\XU_ep2_universe\rem_zones" />
+    <entry name="ZoneROR_Cluster_REM18_Sector001_macro"
+      value="extensions\re_ror_ts_map_patch_cc\maps\XU_ep2_universe\rem_zones" />
   </add>
 </diff>
