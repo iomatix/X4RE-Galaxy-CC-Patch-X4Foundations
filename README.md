@@ -17,3 +17,9 @@ This patch aims to provide **optimal compatibility** between **X4: Reemergence**
 
 ### Requesting Additional Mods
 - You may request any mod that **expands X4 Universe** and is **compatible with the latest release of VRO** (because VRO is hard dependency for Reemergence).
+
+#### Supporting Development
+
+My mods are **always free to use**.
+
+If you appreciate my work, you can support me by [buying me a coffee](https://buymeacoffee.com/iomatix).
