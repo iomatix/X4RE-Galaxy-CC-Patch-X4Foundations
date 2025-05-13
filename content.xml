@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="re_ror_ts_map_patch_cc" name="X4:RE and Extensions including Trey's Sectors - Rise of the Ossian Raider Community Compatibility Patch" 
-         description="Compatibility patch for Reemergence, Trey's Sectors, and ROR series" 
-         author="iomatix" version="111" save="0" date="2025-05-11" sync="false">
+<content id="re_patches_galaxy_map_cc" name="X4:RE Galaxy - Community Compatibility Patch" 
+         description="A compatibility patch ensuring seamless integration between Reemergence and various sector mods, including Trey's Sectors and the ROR series." 
+         author="iomatix" version="112" save="0" date="2025-05-13" sync="false">
 
   <dependency id="reemergence" optional="false"/>
-  <dependency id="addmoresectorsre" optional="false"/>
-  <dependency id="ws_1705279348" optional="false"/>
-  <dependency id="ws_2408335033" optional="false"/>
-  <dependency id="Rise of the Ossian Raider Part 3" optional="false"/>
-  <dependency id="ws_1696862840" optional="false"/>
-  <dependency id="re_expansion_pirate" optional="false"/>
+  <dependency id="addmoresectorsre" optional="true"/>
+  <dependency id="ws_1705279348" optional="true"/>
+  <dependency id="ws_2408335033" optional="true"/>
+  <dependency id="Rise of the Ossian Raider Part 3" optional="true"/>
+  <dependency id="re_expansion_pirate" optional="true"/>
 </content>

@@ -2,6 +2,6 @@
 <diff>
   <add sel="/index">
     <entry name="ZoneROR_Cluster_REM*"
-      value="extensions\re_ror_ts_map_patch_cc\maps\XU_ep2_universe\rem_zones" />
+      value="extensions\re_patches_galaxy_map_cc\maps\XU_ep2_universe\rem_zones" />
   </add>
 </diff>
