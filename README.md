@@ -5,11 +5,10 @@ A compatibility patch ensuring seamless integration between Reemergence and vari
 ### Patch Overview
 This patch aims to provide **optimal compatibility** between **X4: Reemergence** and **Rise of the Ossian Raider**, while also ensuring support for additional content, including official and community expansions for X4RE, as well as officially supported community sector addons.
 
-### Requirements
+### Supported Mods
 - **X4: Reemergence**
 - **Rise of the Ossian Raider**
 - **Trey's Sectors Reemergence Patch Standalone**
-- **Variety and Rebalance Overhaul**
 - **X4: RE Expansion - Skull and Bones**
 
 ### Future Adaptation
