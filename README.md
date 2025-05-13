@@ -2,6 +2,12 @@
 
 A compatibility patch ensuring seamless integration between Reemergence and various sector mods, including Trey's Sectors and the ROR series.
 
+## Contributors
+
+<a href="https://github.com/iomatix/X4RE-Galaxy-CC-Patch-X4Foundations/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=iomatix/X4RE-Galaxy-CC-Patch-X4Foundations" />
+</a>
+
 ### Patch Overview
 This patch aims to provide **optimal compatibility** between **X4: Reemergence** and **Rise of the Ossian Raider**, while also ensuring support for additional content, including official and community expansions for X4RE, as well as officially supported community sector addons.
 
