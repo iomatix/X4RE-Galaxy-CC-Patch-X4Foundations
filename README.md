@@ -36,8 +36,8 @@ If you appreciate my work, you can support me by [buying me a coffee](https://bu
 
 ```
 X_coord = x_offset × 15,000,000
-Z_coord = z_offset × 17,320,000
+Z_coord = (z_offset-0.5) × 17,320,000
 
 x_offset = -13 → X = -195,000,000 (-13*15,000,000)
-z_offset = 9 → Z = 155880000 (9*17,320,000)
+z_offset = 9 → Z = 147,220,000 (8.5*17,320,000)
 ```
